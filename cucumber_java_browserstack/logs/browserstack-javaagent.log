@@ -1,0 +1,27 @@
+15:11:06.027 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+15:11:06.031 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+15:11:06.298 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:11:06.301 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\KavyaMohanan\IdeaProjects\cucumber_java_browserstack\browserstack.yml
+15:11:06.380 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+15:11:07.092 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber
+15:11:11.034 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber. We currently support frameworks testng, cucumber-testng & serenity
+15:11:11.507 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:11:12.810 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:11:17.965 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:11:19.181 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:11:19.186 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\KavyaMohanan\IdeaProjects\cucumber_java_browserstack\browserstack.yml
+15:11:19.202 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:11:19.205 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:11:19.207 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\KavyaMohanan\IdeaProjects\cucumber_java_browserstack\browserstack.yml
+15:11:19.209 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\KavyaMohanan\IdeaProjects\cucumber_java_browserstack\browserstack.yml
+15:11:19.270 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+15:11:19.286 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+15:11:19.291 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+15:11:23.018 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:11:23.027 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:11:23.115 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber. We currently support frameworks testng, cucumber-testng & serenity
+15:11:23.127 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber. We currently support frameworks testng, cucumber-testng & serenity
+15:11:23.143 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:11:23.266 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber. We currently support frameworks testng, cucumber-testng & serenity
+15:14:55.399 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/f3b47245b8b6b248cc2c3a737352353323e9164f
+15:14:55.400 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO

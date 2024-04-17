@@ -1,0 +1,109 @@
+15:11:06.027 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+15:11:06.031 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+15:11:06.298 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:11:06.301 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\KavyaMohanan\IdeaProjects\cucumber_java_browserstack\browserstack.yml
+15:11:06.380 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+15:11:06.646 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+15:11:06.647 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+15:11:07.063 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Java command - io.cucumber.core.cli.Main --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --glue com.browserstack.stepdefs C:/Users/KavyaMohanan/IdeaProjects/cucumber_java_browserstack/src/test/resources/features/test/SignUpAndSignIn.feature
+15:11:07.063 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: 
+15:11:07.068 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: none, Engine: cucumber
+15:11:07.092 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: cucumber from dependencies
+15:11:07.092 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: cucumber-testng
+15:11:07.092 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.20
+15:11:07.092 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to cucumber
+15:11:07.629 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+15:11:08.043 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 411ms
+15:11:09.319 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1274ms
+15:11:11.026 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1706ms
+15:11:11.027 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+15:11:11.034 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber. We currently support frameworks testng, cucumber-testng & serenity
+15:11:11.054 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"uNDwC3ypsJaUsWThZDLd","userName":"subinraju_nDYEqp","event_properties":{"product":"[automate]","buildName":"browserstack-build-1","os":"Windows 10","languageVersion":"22","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":4,"parseDependencies":24},"language":"java","sdkRunId":"f2f9e12c-3a68-4eb0-8c39-eb34d1e90fe2","buildIdentifier":"#6","userFramework":"cucumber","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"cucumber, testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false},"referrer":"cucumber-javaagent\/1.13.20","hostname":"IN01LTD091","language_framework":"java_cucumber","detectedFramework":"cucumber-testng","detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+15:11:11.507 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+15:11:11.507 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:11:11.526 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-04-16T09:41:11.523391700Z][ OBSERVABILITY ] Processing Request Kind launchTestSession
+
+15:11:11.526 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/builds
+15:11:12.806 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:11:12.807 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : qmnz9xymvm4h0obz3ajgpeahfbpnsjo6dcr06qam
+15:11:12.810 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:11:12.813 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 16_Apr_1511_IN01LTD091_31sh
+15:11:17.965 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+15:11:19.181 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:11:19.186 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\KavyaMohanan\IdeaProjects\cucumber_java_browserstack\browserstack.yml
+15:11:19.202 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:11:19.205 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:11:19.207 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\KavyaMohanan\IdeaProjects\cucumber_java_browserstack\browserstack.yml
+15:11:19.209 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\KavyaMohanan\IdeaProjects\cucumber_java_browserstack\browserstack.yml
+15:11:19.270 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+15:11:19.286 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+15:11:19.291 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+15:11:19.569 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+15:11:19.569 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+15:11:19.569 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.20
+15:11:19.576 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+15:11:19.576 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+15:11:19.577 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.20
+15:11:19.590 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+15:11:19.590 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+15:11:19.590 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.20
+15:11:20.212 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+15:11:20.220 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+15:11:20.233 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+15:11:20.521 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 307ms
+15:11:20.522 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 287ms
+15:11:20.529 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 307ms
+15:11:21.409 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 886ms
+15:11:21.410 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 885ms
+15:11:21.487 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 955ms
+15:11:23.006 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1596ms
+15:11:23.007 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+15:11:23.017 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1605ms
+15:11:23.018 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:11:23.019 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+15:11:23.027 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:11:23.115 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber. We currently support frameworks testng, cucumber-testng & serenity
+15:11:23.121 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1632ms
+15:11:23.123 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+15:11:23.127 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber. We currently support frameworks testng, cucumber-testng & serenity
+15:11:23.143 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:11:23.266 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is cucumber. We currently support frameworks testng, cucumber-testng & serenity
+15:11:32.279 [main] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+15:11:37.749 [main] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+15:11:42.512 [main] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+15:11:42.837 [main] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+15:11:48.971 [main] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+15:11:50.550 [main] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+15:11:55.521 [main] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+15:12:01.023 [main] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+15:12:06.111 [main] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+15:12:07.906 [main] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+15:12:11.846 [main] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+15:12:14.294 [main] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+15:12:17.882 [main] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+15:12:20.064 [main] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+15:12:23.223 [main] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+15:12:25.645 [main] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+15:12:31.567 [main] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+15:12:38.977 [main] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+15:12:41.586 [main] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+15:12:45.085 [main] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+15:12:47.277 [main] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+15:12:50.454 [main] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+15:12:57.667 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+15:12:57.667 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+15:12:58.967 [main] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+15:13:06.241 [main] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+15:13:13.025 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+15:13:13.025 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+15:14:14.385 [main] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+15:14:25.505 [main] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+15:14:44.260 [main] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+15:14:50.419 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Serenity
+15:14:50.419 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+15:14:50.965 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+15:14:53.381 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"uNDwC3ypsJaUsWThZDLd","userName":"subinraju_nDYEqp","event_properties":{"product":"[automate]","buildName":"browserstack-build-1","os":"Windows 10","languageVersion":"22","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":4,"parseDependencies":24},"language":"java","sdkRunId":"f2f9e12c-3a68-4eb0-8c39-eb34d1e90fe2","buildIdentifier":"#6","userFramework":"cucumber","testhub_uuid":"qmnz9xymvm4h0obz3ajgpeahfbpnsjo6dcr06qam","detectedAppiumVersion":"null","detectedDependencies":"cucumber, testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false},"referrer":"cucumber-javaagent\/1.13.20","hostname":"IN01LTD091","measures":{"local:start":5152,"sdk:setup":6342,"local:stop":2381},"language_framework":"java_cucumber","detectedFramework":"cucumber-testng","productUsage":{"testObservability":{"buildHashedId":"","manuallySet":false,"enabled":false}},"detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+15:14:53.798 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+15:14:55.399 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/f3b47245b8b6b248cc2c3a737352353323e9164f
+15:14:55.400 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:14:55.400 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  6) is not same as client side buildName(browserstack-build-1 #6)
